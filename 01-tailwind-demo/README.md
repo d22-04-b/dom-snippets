@@ -8,4 +8,4 @@ Generate CSS: `npm run css`
 
 Startup: Use live-server (either in terminal or via VsCode extension)
 
-Enjoy the style :D
+Enjoy tailwindin' :D

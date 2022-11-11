@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Move ball</title>
+  <script defer src="./script.js"></script>
+  <style>
+
+    * {
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    main {
+      position: relative;
+      border: 20px solid darkblue;
+      height: 500px;
+      /* height: calc(100vh - 40px); */
+      width: 500px;
+      box-sizing: content-box;
+    }
+
+    .ball {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+
+      background-color: blue;
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <main>
+    <div class="ball"></div>
+  </main>
+  
+</body>
+</html>

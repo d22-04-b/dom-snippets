@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Toggle Demo </title>
+  <!-- defer => mach später! -->
+  <script defer src="./script.js"></script>
+  <style>
+    .login {
+      margin: auto;
+      width: 300px;
+      display: flex;
+      padding: 20px;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .invisible {
+      display: none
+    }
+
+    input,
+    button {
+      padding: 5px;
+    }
+
+    h2,
+    .dashboard,
+    .error {
+      text-align: center;
+    }
+
+    .dashboard,
+    .error {
+      font-size: 2rem;
+    }
+
+    .error {
+      color: red;
+      font-weight: bold;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="login">
+    <h2>I want in</h2>
+    <input name="email" type="text" placeholder="Email...">
+    <input name="password" type="password" placeholder="Password...">
+    <button class="btn-login">Login</button>
+  </div>
+
+  <div class="dashboard invisible">
+    Willkommen buddy!
+  </div>
+
+  <div class="error invisible">
+    Login inkorrekt! Raus hier, du Sau!
+  </div>
+
+</body>
+
+</html>

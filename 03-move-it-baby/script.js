@@ -34,7 +34,6 @@ window.addEventListener("keydown", (e) => {
     case "ArrowLeft":
       console.log("Moving left....");
 
-      // extract pixel number and subtract pixels from left
       left -= ballSpeedInPx;
       right += ballSpeedInPx;
 
@@ -42,7 +41,6 @@ window.addEventListener("keydown", (e) => {
     case "ArrowRight":
       console.log("Moving right....");
 
-      // extract pixel number and add pixels to left
       left += ballSpeedInPx;
       right -= ballSpeedInPx;
 
@@ -50,7 +48,6 @@ window.addEventListener("keydown", (e) => {
     case "ArrowUp":
       console.log("Moving up...");
 
-      // extract pixel number and add pixels to bottom
       bottom += ballSpeedInPx;
       top -= ballSpeedInPx;
 
@@ -58,7 +55,6 @@ window.addEventListener("keydown", (e) => {
     case "ArrowDown":
       console.log("Moving down...");
 
-      // extract pixel number and subtracting pixels to bottom
       bottom -= ballSpeedInPx;
       top += ballSpeedInPx;
       break;

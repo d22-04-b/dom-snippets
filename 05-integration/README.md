@@ -7,6 +7,7 @@ Integration means:
 Create a backend which stores data with zero code using JSON SERVER package:
 
 `npm init -y`
+
 `npm install json-server`
 
 Start backend in terminal:
@@ -23,7 +24,7 @@ Fetch is a builtin function in the browser.
 
 We can use it to EXCHANGE data with a backend.
 
-`fetch( backendUrl )` (e.g. fetch('http://localhost:5000/todos'))
+`fetch( backendUrl ) // e.g. fetch('http://localhost:5000/todos'))`
 
 More examples on how to use fetch in your UI for doing backend operations (add, update, delete data):
 

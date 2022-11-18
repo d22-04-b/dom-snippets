@@ -1,0 +1,40 @@
+{
+  "todos": [
+    {
+      "id": "t1",
+      "title": "Forget about English course"
+    },
+    {
+      "id": "t2",
+      "title": "Setup JSON server"
+    },
+    {
+      "id": "t3",
+      "title": "Increase immunse system"
+    },
+    {
+      "id": "t4",
+      "title": "Weekend prep"
+    },
+    {
+      "id": "t5",
+      "title": "Do some Promises"
+    },
+    {
+      "title": "Forget about everything from today",
+      "id": "HgLZuIm"
+    },
+    {
+      "title": "Noch einer",
+      "id": "16qlyA8"
+    }
+  ],
+  "products": [
+    "Dishwaser",
+    "Sink",
+    "Fridge",
+    "Boiler",
+    "Hairdryer"
+  ],
+  "users": []
+}
